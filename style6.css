@@ -68,3 +68,19 @@ img{
     width:2px ;
     background-color: #f1113a;
 }
+
+@media (max-width: 800px){
+    section{
+        width: 300px;
+        height: 300px;
+    }
+    .top-container{
+        font-size: 20px;
+        gap: 15px;
+    }
+    img{
+        height: 60px;
+        width: 60px;
+        margin-left: 10px;
+    }
+}
